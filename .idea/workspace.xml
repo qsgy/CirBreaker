@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="035ee69f-fcbb-4419-a0ec-caec798b0698" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OyEngine/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OyEngine/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/OyEngine/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CirBreaker$main.coverage" NAME="main Coverage Results" MODIFIED="1531811674474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CirBreaker$main.coverage" NAME="main Coverage Results" MODIFIED="1531811968827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CirBreaker$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1531388206422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FileEditorManager">
@@ -20,12 +20,11 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OyEngine/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="284" column="4" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
+            <state relative-caret-position="325">
+              <caret line="286" column="3" lean-forward="true" selection-start-line="286" selection-start-column="3" selection-end-line="286" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" />
                 <element signature="e#181#192#0" expanded="true" />
-                <element signature="e#351#379#0" />
                 <element signature="e#2249#2281#0" />
                 <element signature="e#5273#5304#0" />
                 <element signature="e#5787#5817#0" />
@@ -70,8 +69,8 @@
         <option value="$PROJECT_DIR$/__init__.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/OyEngine/__init__.py" />
-        <option value="$PROJECT_DIR$/OyEngine/main.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/OyEngine/main.py" />
       </list>
     </option>
   </component>
@@ -201,16 +200,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33013698" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33013698" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32968536" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.22460938" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.22460938" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -245,7 +245,6 @@
           <folding>
             <element signature="n#!!doc" />
             <element signature="e#181#192#0" expanded="true" />
-            <element signature="e#351#379#0" />
             <element signature="e#2249#2281#0" />
             <element signature="e#5273#5304#0" />
             <element signature="e#5787#5817#0" />
@@ -260,7 +259,6 @@
           <folding>
             <element signature="n#!!doc" />
             <element signature="e#181#192#0" expanded="true" />
-            <element signature="e#351#379#0" />
             <element signature="e#2249#2281#0" />
             <element signature="e#5273#5304#0" />
             <element signature="e#5787#5817#0" />
@@ -307,12 +305,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OyEngine/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="284" column="4" selection-start-line="284" selection-start-column="4" selection-end-line="284" selection-end-column="4" />
+        <state relative-caret-position="325">
+          <caret line="286" column="3" lean-forward="true" selection-start-line="286" selection-start-column="3" selection-end-line="286" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" />
             <element signature="e#181#192#0" expanded="true" />
-            <element signature="e#351#379#0" />
             <element signature="e#2249#2281#0" />
             <element signature="e#5273#5304#0" />
             <element signature="e#5787#5817#0" />

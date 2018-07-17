@@ -276,15 +276,15 @@ while True:
 
     charp = mpol - player_pos
     print(charp)
-    if  charp<0.1:  #追随鼠标
-        if charp % (2 * math.pi) > PLAYER_V * detalTime * 2:
-            charp = (charp % (2 * math.pi) + 2 * math.pi) % (2 * math.pi)  # 化为0-2pi
-            if charp < math.pi:
-                player_current_v = PLAYER_V  * (charp ** 0.4)
-            else:
-                player_current_v = -PLAYER_V  * ((-charp + 2 * math.pi) ** 0.4)
+        #追随鼠标
+    if charp % (2 * math.pi) > PLAYER_V * detalTime * 2:
+        charp = (charp % (2 * math.pi) + 2 * math.pi) % (2 * math.pi)  # 化为0-2pi
+        if charp < math.pi:
+            player_current_v = PLAYER_V  * (charp ** 0.4)
+        else:
+             player_current_v = -PLAYER_V  * ((-charp + 2 * math.pi) ** 0.4)
     #print(player_current_v)
-   # player_pos += player_current_v*detalTime
+    player_pos += player_current_v*detalTime
     #player_pos=0#debug
     #和挡板的碰撞
     #PointCollision(Vector2(OUT_POSITION)+Vector2(math.cos(player_pos-PLAYER_RADIAN/2),-math.sin(player_pos))*(RADIUS_OUT-PLAYER_HEIGHT))
