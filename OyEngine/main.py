@@ -169,7 +169,7 @@ while True:
         #球
     pygame.draw.circle(screen, COLORS['ball'], (int(ball_pos.x), int(ball_pos.y)), BALL_RADIUS, 0)
         #分数和生命值UI
-    DrawText( 'Life:%3s Score:%4s Level:%3s  %-10s '%(str(player_hp),str(score),str(level),str(mPos)+'polar'+str(mpol)), mousePos,screen,0, 0)
+    DrawText( 'Life:%3s Score:%4s Level:%3s '%(str(player_hp),str(score),str(level)), mousePos,screen,0, 0)
     # </editor-fold>
 
     #<editor-fold title='更新处理'>

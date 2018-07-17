@@ -93,9 +93,9 @@ enemys=[]
 
 #<editor-fold title='游戏对象的初始化'>
 #UI
-startTip = pygame.font.SysFont(None, 48)
-mousePos = pygame.font.SysFont(None, 20)
-scoreText = pygame.font.SysFont(None, 40)
+startTip = pygame.font.SysFont('arial', 48)
+mousePos = pygame.font.SysFont('arial', 20)
+scoreText = pygame.font.SysFont('arial', 40)
 #init game frame
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT)) #窗口
 pygame.display.set_caption('Circle Breaker')#the name of the window
