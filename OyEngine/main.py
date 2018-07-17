@@ -275,14 +275,18 @@ while True:
     #    player_current_v=-PLAYER_V*0.5
 
     charp = mpol - player_pos
-    print(charp)
+    #print(charp)
         #追随鼠标
     if charp % (2 * math.pi) > PLAYER_V * detalTime * 2:
         charp = (charp % (2 * math.pi) + 2 * math.pi) % (2 * math.pi)  # 化为0-2pi
         if charp < math.pi:
-            player_current_v = PLAYER_V  * (charp ** 0.4)
+           # print('1')
+            player_current_v = PLAYER_V  * (charp ** 0.5)
         else:
-             player_current_v = -PLAYER_V  * ((-charp + 2 * math.pi) ** 0.4)
+             player_current_v = -PLAYER_V  * ((-charp + 2 * math.pi) ** 0.5)
+            # print('2')
+    else:
+        player_current_v=0
     #print(player_current_v)
     player_pos += player_current_v*detalTime
     #player_pos=0#debug
