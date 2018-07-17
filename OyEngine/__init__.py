@@ -12,8 +12,8 @@ import sys
 from enum import Enum
 from pygame.locals import *
 from pygame.math import *
-
-
+#在这里初始化游戏的所有资源和变量
+pygame.init()
 # 一些关于长度的常量定义
     #窗体
 WINDOW_WIDTH = 600
@@ -91,6 +91,16 @@ global enemys #[(pos,r,color)] 敌人列表
 enemys=[]
 
 
+#<editor-fold title='游戏对象的初始化'>
+#UI
+startTip = pygame.font.SysFont(None, 48)
+mousePos = pygame.font.SysFont(None, 20)
+scoreText = pygame.font.SysFont(None, 40)
+#init game frame
+screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT)) #窗口
+pygame.display.set_caption('Circle Breaker')#the name of the window
+clock=pygame.time.Clock()#timer
 
+#</editor-fold>
 
 
