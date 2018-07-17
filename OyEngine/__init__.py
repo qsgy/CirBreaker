@@ -13,8 +13,7 @@ from enum import Enum
 from pygame.locals import *
 from pygame.math import *
 
-#<editor-fold desc="游戏变量常量">
-#init fields
+
 # 一些关于长度的常量定义
     #窗体
 WINDOW_WIDTH = 600
@@ -92,6 +91,6 @@ global enemys #[(pos,r,color)] 敌人列表
 enemys=[]
 
 
-#</editor-fold>
+
 
 
