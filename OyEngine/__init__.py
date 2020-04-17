@@ -69,20 +69,20 @@ PLAYER_START_POS=math.pi*1
 player_pos=PLAYER_START_POS      #玩家位置，处于下方的-90度
 PLAYER_V=2                      #玩家旋转角速度
 player_current_v=0              #玩家当前速度
-PLAYER_FRI=10                    #挡板摩擦力。越大对球的切向加速越快
+PLAYER_FRI=30                    #挡板摩擦力。越大对球的切向加速越快
 PLAYER_RADIAN=math.pi*0.1        #玩家挡板弧度
 PLAYER_HEIGHT=10                 #玩家挡板高度
 paddle_move_left=False      #玩家按键
 paddle_move_right=False
     #protect area
-PLAYER_PROTECT_RADIAN=math.pi*0.4#玩家保护区弧度
+PLAYER_PROTECT_RADIAN=math.pi*0.9#玩家保护区弧度
 protect_pos=player_pos           #保护区起始位置，弧度
 protect_v=0.05                   #保护区 弧度移动速度
         #球的速度和位置
 global vel,ball_pos
 vel=Vector2()
 ball_pos=Vector2()
-BALL_V=150       #球初始速度基值
+BALL_V=130       #球初始速度基值
 #敌人
 ENEMY_SPAWN_RADIUS=RADIUS_OUT//2 #生成敌人的半径圆域
 ENEMY_MAX_R=20  #生成球的最大半径
