@@ -208,12 +208,17 @@ while True:
         #print('ball:'+str(ball_dian)+',player'+str(player_pos)+'col')
         if OuterCollision(RADIUS_OUT-PLAYER_HEIGHT): #碰撞 方向摩擦力
             theta=(Vector2(OUT_POSITION)-ball_pos).as_polar()
+            print('theta',theta)
             theta=-theta[1]
             if player_current_v>0:
-                theta-=0.5*math.pi
+                theta-=90
+                #print('+')
             else:
-                theta+=0.5*math.pi
+                theta+=90
+                #print('-')
+            print('theta',theta)
             add=Vector2(math.cos(theta),-math.sin(theta))*player_current_v*PLAYER_FRI
+            print(add)
             vel+=add
             #print('vel'+str(vel)+',add:'+str(add))
             pass
